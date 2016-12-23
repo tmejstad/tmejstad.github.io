@@ -88,7 +88,8 @@ padding:0 24px;
 }
 
 .column#left {
-width:336px;
+/* width:336px; */
+width:290px;
 border-right:1px solid #ccc;
 }
 
