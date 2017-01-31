@@ -74,7 +74,7 @@ margin:0;
 }
 
 #border {
-width:750px;
+width:775px;
 border:1px solid #aaa;
 background-color:#f8f8f8;
 padding:24px 0;
@@ -89,7 +89,7 @@ padding:0 24px;
 
 .column#left {
 /* width:336px; */
-width:290px;
+width:315px;
 border-right:1px solid #ccc;
 }
 
