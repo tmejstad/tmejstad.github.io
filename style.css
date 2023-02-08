@@ -19,7 +19,7 @@ a:hover{
     }
 }
 @media (prefers-color-scheme: dark){
-    body {color:#fff;background:#000}
+    body {color:#fff;background:#121212}
     a:link {color:#9cf}
-    a:hover { background-color: transparent }
+    a:hover { background-color: #cf9 }
 }
