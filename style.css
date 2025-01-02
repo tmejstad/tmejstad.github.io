@@ -3,43 +3,28 @@ body {
     max-width: 40em;
     padding: 0 .62em;
     font: 1.2em/1.62 sans-serif;
+	color: #F0EFF4;
+	background: #291528;
 }
 
 h1,
-h2,
+h2 {
+	border-bottom: solid 0.1rem #3A3E3B;
+}
 h3 {
     line-height: 1.2;
 }
 
-h2 {
-    border-bottom: solid 0.1rem #000;
+a:link {
+	color: #9cf
 }
 
 a:hover {
-    background-color: yellow;
+	background-color: #3b3b3b
 }
 
 @media print {
     body {
         max-width: none
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    body {
-        color: #e2e2e2;
-        background: #1b1b1b
-    }
-
-    h2 {
-        border-bottom: solid 0.1rem #303030;
-    }
-
-    a:link {
-        color: #9cf
-    }
-
-    a:hover {
-        background-color: #3b3b3b
     }
 }
